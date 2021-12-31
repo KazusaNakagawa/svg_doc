@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 800 400">
+  <line x1="510" y1="50" x2="100" y2="800" style="stroke:rgb(255,200,0);stroke-width:2" />
+   <defs>
+    <radialGradient id="grad1" cx="30%" cy="40%" r="40%" fx="50%" fy="50%">
+      <stop offset="10%" style="stop-color:rgba(255,255,255, 0.7);
+      stop-opacity:0" />
+      <stop offset="100%" style="stop-color:rgba(0,0,255, 0.7);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <defs>
+    <radialGradient id="grad2" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="10%" style="stop-color:rgba(255,255,255, 0.5);
+      stop-opacity:0" />
+      <stop offset="70%" style="stop-color:rgba(200, 100, 155, 0.7);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+    <defs>
+    <radialGradient id="grad3" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="10%" style="stop-color:rgba(255,255,255, 0.2);
+      stop-opacity:0" />
+      <stop offset="100%" style="stop-color:rgba(0,0,255, 0.2);stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <ellipse cx="300" cy="50" rx="95" ry="55" fill="url(#grad2)" />
+  <ellipse cx="400" cy="100" rx="105" ry="52" fill="url(#grad3)" />
+  <ellipse cx="450" cy="150" rx="105" ry="55" fill="url(#grad3)" />
+  <ellipse cx="400" cy="200" rx="105" ry="55" fill="url(#grad3)" />
+  <ellipse cx="300" cy="250" rx="105" ry="55" fill="url(#grad3)" />
+  <ellipse cx="200" cy="200" rx="105" ry="55" fill="url(#grad3)" />
+</svg>
